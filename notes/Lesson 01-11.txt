@@ -1,0 +1,30 @@
+Discussing Syllabus
+robertoflores.youcanbook.me -> If you want to reserve a place to meet with Dr. Flores in Office hours.
+
+Difference between Library and Framework: A library is a method that you have not used that is a tool that comes into a program.
+                                          A frameowrk is a program that abstractly invokes code when the instance of an event happenes
+                                          in a program.
+
+GUI's are known as effective frameworks.
+
+Array Lists in general are a frameowrk. Because they are extensible. However, in java, they are used as a library.
+
+In the class, you will not be writing a program from scratch. You will be reusing code.
+
+Integration Tests: You run all the testcases that have accumulated in the development process of the software.
+
+Safari.books online you will find software engineering by Frank Tsui and Orlando Karam - You can read through it for free.
+
+
+A library performs specific, well-defined operations.
+
+A framework is a skeleton where the application defines the "meat" of the operation by filling out the skeleton.
+The skeleton still has code to link up the parts but the most important work is done by the application.
+
+Examples of libraries: Network protocols, compression, image manipulation, string utilities, regular expression evaluation,
+math. Operations are self-contained.
+
+Examples of frameworks: Web application system, Plug-in manager, GUI system. The framework defines the concept but the application
+defines the fundamental functionality that end-users care about.
+
+
