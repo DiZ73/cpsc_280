@@ -1,0 +1,32 @@
+
+- The better we can learn about our habitts when it comes to programming, the better we can improve on ways
+  in which we actually write code.
+  
+Methodology in writing software:
+• Requirements:	 Describe	what	the	client	wants	the	system	to	do Testing
+• Analysis:	 Describes	what the	system	will	do
+• Design:	 Describes	how the	system	will	do	it
+• Implementation:	 Coding	 the	system	as	designed
+• Testing:	 Asserts	that	the	system	works	as	described
+
+Software Engineers are to design solutions for X problems.
+
+The difference between functional and Non-functional requirements is based on what the user wants.
+
+When planning for the time it takes to write software you need to take all variables into account. There are
+several stages when it comes to writing a program. (PSP - Watts S Humphrey)
+
+PSP0 is the baseline process:
+
+The principal objective of PSP0, the baseline process, is to provide a framework for writing your first PSP program and for
+gathering data on your work. The data from the first PSP programs provide a comparative baseline for determining the impact
+of the PSP methods on your work. The PSP0 process is shown in simplified form in Figure 2.1. The scripts guide you through
+the process steps, the logs help you to record process data, and the plan summary provides a convenient way to record and
+report your results.
+
+The PSP0 process provides the following benefits:
+- Image A convenient structure for performing small-scale tasks
+- Image A framework for measuring these tasks
+- Image A foundation for process improvement
+
+
