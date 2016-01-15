@@ -1,0 +1,14 @@
+Reminders of the pervious lesson looking at PSP.
+
+Overview through defect recording log. Defect recording logs are done in each stage of testing through the
+Software Development testing cycle. However that doesn't include the fact that you can discover a defect without
+running any testcases on your code. Any time you discover a defect, while coding, while talking to a friend, or while testing,
+you can discover a defect, and you can log it.
+
+There are defect types that are important to work through. PSP is a good baseline for actually recording every stage of the software 
+development process. 
+
+It allows you to see what past decisions you've made, and allows you to log what you've done.
+
+
+
