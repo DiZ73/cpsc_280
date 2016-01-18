@@ -1,0 +1,87 @@
+Lesson on Javadocs in programming, and documentation.
+
+First sentence of a javadoc is the summary of your class. Anything else after that is a description of specifics. The tag section
+is a place for using tags that tell the user either what the program does, or what the user should do. Some tags that you can use
+when you're refering to another class. ' @see ' and a way to say who wrote it could be ' @author ' and other things that you probably
+know from 270.
+
+In a method, you will have a summary but the tags will differ. You need to show any parameters that are used, and you need to specify 
+what the method returns as a result, if it returns something.
+
+If anything is public, it must be javadoced and also if anything is private. Even though most of our variables are private, inorder to
+remove them from the interface of the code, we need to document that they're there.
+
+In creating a Javadoc API in Eclipse, You can write up the documentation, and view it in Eclipse's internal browser.
+
+
+Enum Types:
+An enum type is a special data type that enables for a variable to be a set of predefined constants. The variable must be equal 
+to one of the values that have been predefined for it. Common examples include compass directions 
+(values of NORTH, SOUTH, EAST, and WEST) and the days of the week.
+
+Because they are constants, the names of an enum type's fields are in uppercase letters.
+
+In the Java programming language, you define an enum type by using the enum keyword. For example, you would specify a days-of-the-week enum type as:
+
+
+public enum Day {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY 
+}
+You should use enum types any time you need to represent a fixed set of constants. That includes natural enum types such as the planets in our solar system and data sets where you know all possible values at compile time—for example, the choices on a menu, command line flags, and so on.
+
+Here is some code that shows you how to use the Day enum defined above:
+
+
+public class EnumTest {
+    Day day;
+    
+    public EnumTest(Day day) {
+        this.day = day;
+    }
+    
+    public void tellItLikeItIs() {
+        switch (day) {
+            case MONDAY:
+                System.out.println("Mondays are bad.");
+                break;
+                    
+            case FRIDAY:
+                System.out.println("Fridays are better.");
+                break;
+                         
+            case SATURDAY: case SUNDAY:
+                System.out.println("Weekends are best.");
+                break;
+                        
+            default:
+                System.out.println("Midweek days are so-so.");
+                break;
+        }
+    }
+    
+    public static void main(String[] args) {
+        EnumTest firstDay = new EnumTest(Day.MONDAY);
+        firstDay.tellItLikeItIs();
+        EnumTest thirdDay = new EnumTest(Day.WEDNESDAY);
+        thirdDay.tellItLikeItIs();
+        EnumTest fifthDay = new EnumTest(Day.FRIDAY);
+        fifthDay.tellItLikeItIs();
+        EnumTest sixthDay = new EnumTest(Day.SATURDAY);
+        sixthDay.tellItLikeItIs();
+        EnumTest seventhDay = new EnumTest(Day.SUNDAY);
+        seventhDay.tellItLikeItIs();
+    }
+}
+The output is:
+
+Mondays are bad.
+Midweek days are so-so.
+Fridays are better.
+Weekends are best.
+Weekends are best.
+
+This is how enums can be used in Java. There are ways in other programming languages to use these programs, and you'll learn more 
+about that in CPSC 360.
+
+
