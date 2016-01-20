@@ -1,0 +1,40 @@
+Lesson on Size and Complexity
+
+Minor additions can disproportionally affect the size and complexity of a system.
+There are technoical considerations that you need  to take into account when you are looking at handeling problems, with regards to
+decomposition, Modularization, Seperating Responsibilities, Incrememntal Iterations.
+
+There are several considerations in a Software Engineering such as Encapsulation which eliminates variables from the interface of a 
+program.
+
+Software development is...
+  Incrememntal: All aspects are eventually handeled, in order of importance
+  Iterative: All phases are applied to handle current aspects
+  
+A software development process is needed to guide and coordinate groups of people, and it indicates the tasks (their sequence,
+input/output, pre/post-conditions) involved in the productions of software.
+
+Size and Complexity: Programs can get complex REALLY fast.
+
+There are Non-Technical considerations aswell:
+  Team Communication:
+  - Project complexity & size may genuinely require more people.
+  - Having people on different tasks (e.g., testing, integration, tool support) requires goal awareness & coordination
+  - However more people leads to more (mis) communication
+  
+Fredrick Brooks' Law: "..adding manpower to a late project makes it later..."
+- Training, communication & coordination overhead
+- People can be added without delaying a project depending on its number of independent tasks.
+
+-- Look at Fredrick Brooks' Book The Mythical Man-Month: Essays on Software Engineering.
+
+What is Engineering?
+
+-- To find out what engineering is GOOGLE IT!
+
+Software Engineering is concerned with the best war to build good software systems. - ACM/IEEE
+
+Are we doing any better?
+"Software depression" -Long Lasting -No end in sight.
+
+There are success factors and failure factors when it comes to Engineering software. 
