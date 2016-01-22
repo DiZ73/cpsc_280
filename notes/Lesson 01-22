@@ -1,0 +1,31 @@
+Today we are looking at the Software development process.
+
+Code and Fix:
+For the process we have a Code and Fix with no designs and no specifications.
+It's the easiest appraoch, to code as you go, and it may work better for small programs. (~200)
+It's also the most expensive, since it's shortsighted, as there is no documentation, and no certainty.
+
+You implement the first version, and you modify the unit until the client is satisfied. you have post delivery maintenance, and then 
+the project retires.
+
+Open Source Model:
+Many Successful Projects such as the Linux Kernel, Eclipse, Web Browsers, and Apache Servers.
+there are three informal stages of this.
+  - One developer = builds initial version and distributes it over the web
+  - people download it if there's intrest
+  - there is development and mintenance
+  Three types of maintenance (Corrective, perfective, adaptive)
+  
+  
+Waterfall Model:
+- On every phase, there is documentation.
+- If there is a design, and we are using diagrams, everything is documented.
+There is a rendition on this with the rapid prototype model which is the waterfall model, and the initial protype, with a
+prototype at every stage of developoment in the project. (Spiral Model)
+
+Spiral Model:
+The spiral model takes a cyclic approach to incrementally develop software while analyzing risk at each iteration. It uses 
+prototyping, and a review at each iteration commits the client, and developer to the next iteration.
+It allows revisiting an earlier iteration for better alternatives.
+Problems? : Over-reliance on risk identification & analysis - Who is the risk assesment expert?
+
