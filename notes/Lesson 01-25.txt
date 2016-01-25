@@ -17,11 +17,16 @@ Principles on which software is valued:
   12. Teamwork Self-assesment - The team reflects on how to become more efficient and better developing.
   
   There are several Methodologies that come with Development.
-  Traditional Process - A Lengthy development time methodology, in which there are a hand ful of developers that satisfy the requirment,
+  Traditional Process - A Lengthy development time methodology, in which there are a hand ful of developers that satisfy
+  the requirment,
                         and leave assesments to the end.
   One of the forms of Agile Methodologies is extreme programmingk, which looks at Rapid feedback type development,
   takes the simplest possible approach to this.
-The incremental changes are not big, they make small changes that add up, building layer after layer of the project until you have a solution.
-After we have done requirements and Analysis, we wind up with user stories, that can be presented on index cards, and short descriptions.
-The developers can make estimates on best case, most likely, and worst case scenarios for the solution based on the user stories. You collect sotry cards and prioritize them. We also have to identify Classes and Responsibilities in the system. This plays into the role of Object oriented design for the system.
+The incremental changes are not big, they make small changes that add up, building layer after layer of the project until you have a
+solution.
+After we have done requirements and Analysis, we wind up with user stories, that can be presented on index cards, and short
+descriptions.
+The developers can make estimates on best case, most likely, and worst case scenarios for the solution based on the user stories.
+You collect sotry cards and prioritize them. We also have to identify Classes and Responsibilities in the system.
+This plays into the role of Object oriented design for the system.
 Remember that classes represent entities, and responsabilities represent actions and functions to implement.
