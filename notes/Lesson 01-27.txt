@@ -1,1 +1,7 @@
+MEthodologies for Software Development Processes
+
+Agile Methodologies: Developing software in short iterations. This allows flexibility to chenges.
+
+http://www.agilemodeling.com/essays/agileModelingXPLifecycle.htm <- Read this!
+
 
