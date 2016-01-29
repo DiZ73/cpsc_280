@@ -1,0 +1,32 @@
+Software Crafstmanship - Being promoted by some.
+ - It is a movement in promoting professional quality.
+ Says that Programmers must: - Build quality software
+                             - Be passionate about learning.
+Mentoring is part of improving (analogy: Blacksmiths)
+ - Aligns with Fredrick Brooks view of a "surgical team"
+ - Productivity varies 10:1 from good to regular programmers
+ - No correlationbetween productivity & experience. (p.30)
+
+There are distinct differences between Traditional Processes, Agile Methodologies, and Software Craftsmanship
+
+How do we go about testing?
+===========================
+Quality - Two features: Verification (When in the process of doing program Verify that requirements are met) 
+          and Validation (That the program solves the problem well, and in an efficient manner.)
+Testing is all about checking to see that the program is functional in many different scenarios.
+Formal methods are mathematical techniques proving that designs are sound.
+Static Analysis is actually looking at a code structure to identify specific flaws that can be related to things such as security.
+
+There are four levels of testing: Unit testing, Functional testing, Integration Testing, System testing.
+These move in order from testing specifics to testing the code generally.
+
+If you just did unit testing you would only be testing modules specifically, but not how they may interact with each other. Further
+more there may be other features such as portability, and security that haven't been tested.
+
+System testing is not good alone. Test cases may not be exhaustive enough. (Faults may exist but have not been executed [ DDoS ] )
+
+Why do we test?
+- Acceptance testing: With client, prior to delivery
+- Performance testing: Performs as desired (Speed, Load)\
+- Stress testing: Degrades gracefully (Overloaded, lack of resources)
+- GUI testing: UI Components& their usability.
