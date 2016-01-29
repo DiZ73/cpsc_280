@@ -3,5 +3,5 @@ MEthodologies for Software Development Processes
 Agile Methodologies: Developing software in short iterations. This allows flexibility to chenges.
 
 http://www.agilemodeling.com/essays/agileModelingXPLifecycle.htm <- Read this!
-
+http://www.selectbs.com/process-maturity/what-is-extreme-programming <- A look at what Extreme Programming (XP) is!
 
