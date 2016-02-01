@@ -1,0 +1,52 @@
+Testing
+*******
+
+Activity performed for evaluating quality of a product, and for improving it by identifying defects and problems in the source code 
+itself. There are different types of testing.
+Black-box Testing: It doesn't consider implementation, rather it evaluates input/output behavior through interface.
+
+Black-box would be about the interface where we feed data, and where we expect certain things coming back. Glass Box is about
+functionality. Looking at everything the method does, and all the things that are inside that we do, is logical and correct.
+
+So if we have a method adding 1 and 2 and it outputs 2:
+        Black Box Phase: We identify the method outputs the wrong value.
+        Glass-Box Phase: Identify the part of the inside of the method that went wrong.
+        
+        **NOTE** -> Glass Box testing is qalso known as White box testing as well. (Clear box)
+        
+http://softwaretestingfundamentals.com/differences-between-black-box-testing-and-white-box-testing/
+
+Equivalence Testing:
+
+  - Equivalence partitioning (EP) is a specification-based or black-box technique.
+  
+  - It can be applied at any level of testing and is often a good technique to use first.
+  
+  - The idea behind this technique is to divide (i.e. to partition) a set of test conditions into groups or sets that can be
+    considered the same (i.e. the system should handle them equivalently), hence ‘equivalence partitioning’. Equivalence
+    partitions are also known as equivalence classes – the two terms mean exactly the same thing.
+    
+  - In equivalence-partitioning technique we need to test only one condition from each partition. This is because we are assuming that
+    all the conditions in one partition will be treated in the same way by the software. If one condition in a partition works, we 
+    assume all of the conditions in that partition will work, and so there is little point in testing any of these others. Similarly,
+    if one of the conditions in a partition does not work, then we assume that none of the conditions in that partition will work so
+    again there is little point in testing any more in that partition.
+    
+
+Path analysis, is the analysis of a path, which is a portrayal of a chain of consecutive events that a given user or cohort
+performs during a set period of time while using a website, online game, or eCommerce platform. As a subset of behavioral analytics,
+path analysis is a way to understand user behavior in order to gain actionable insights into the data. Path analysis provides a 
+visual portrayal of every event a user or cohort performs as part of a path during a set period of time.
+
+This allows for techniques such as short cuircuit evaluation. where if there is a condition that you know will output a given
+value after all of the other functions are called, we can skip those and return that value without going through everything. We
+can use this in testing as well, where if there is a condition that is not met, and because of that we know the testcase down't
+pass we can just pass that outcome of the testcase without testing everything else we need to inorder to decipher whether or not
+the testcase as a whole passes.
+
+While it is possible to track a user’s path through the site, and even show that path as a visual representation, the real question
+is how to gain these actionable insights. If path analysis simply outputs a "pretty"[1] graph, while it may look nice, it does not
+provide anything concrete to act upon.
+
+Eclipse tools that allow us to look at code coverage and places where path analysis might have us skip sections of functionality 
+would be tools such as: ECLEmma, and FindBugs.
