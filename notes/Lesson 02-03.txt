@@ -1,0 +1,47 @@
+Eclipse tools that help us with testing. Specifically ECLEmma:
+
+ECLEmma utilizes the higlighting of functional implementation of functions that are tested in your test cases. 
+   Red - The functionality hasn't even been referenced in the testcases.
+   Yellow - The functionality has only been tested for some of the instances that are defined. (ie. only true cases, never false ones)
+   Green - The functionality has been fully tested.
+   
+ECLEmma is a good tool to make sure that 100% of the paths in your code has been tested to it's full extent.
+
+
+EclEmma is an Eclipse plug-in that generates code coverage reports and provide simple trace information about test cases.
+We will be using EclEmma primarily as a coverage reporting tool.
+
+Coverage is defined as a measure of the completeness of the set of test cases. This definition means that the more source code
+that is executed by your test cases the better. There are four types of coverage: There are four types of coverage:
+
+Method coverage: how many of your methods have been called by your test cases?
+Statement coverage: how many of your statements have been run by your test cases?
+Decision/Branch coverage: how many decision points (if statements) have evaluated both true and false?
+Condition coverage: how many Boolean sub-expressions have been evaluated both true and false at a decision point?
+For small programs, coverage is relatively easy to calculate by hand; however, for larger programs, the task is much more difficult.
+Coverage tools, like EclEmma, help by automating the coverage process and providing readable reports.
+
+EclEmma may be used on top of JUnit. EclEmma runs the JUnit test cases and generates the coverage report from the execution.
+EclEmma provides overall, package, and file level information on statement.
+
+EclEmma can be downloaded for a manual install from its SourceForge Project Page. Additionally, EclEmma can be installed via
+Eclipse Update Site. For more information on installing eclipse plugins, consult the tutorial on the subject. EclEmma's update
+site is: http://update.eclemma.org.
+
+
+For a simple AND boolean if statement you need to cover 2 different testcases. For an OR boolean function you need to have 4 cases.
+This is what the code coverage mechanism will require from you to get 100% of the function coverage. It's intuitive this way.
+
+Another Eclipse tool is called FindBugs
+
+Remember that all of these tools look over the bytecode of the program to scan the code for different anomalies.
+FindBugs™ is a program to find bugs in Java programs. It looks for instances of "bug patterns" --- code instances that are 
+likely to be errors.
+
+This document describes version 3.0.1 of FindBugs.We are very interested in getting your feedback on FindBugs. Please visit the
+FindBugs web page for the latest information on FindBugs, contact information, and support resources such as information about
+the FindBugs mailing lists.
+
+This runs static analysis, and will highlight potentialbugs in your code. Icon of a bug will notify you.
+However, if it doesn't look like a bug it's always good to ask, about the syntactical features of your code in relation to the 
+solution and the potential bugs found that you are being notified of.
