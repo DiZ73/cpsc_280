@@ -1,0 +1,43 @@
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.border.Border;
+
+public class Frame {
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Hi Everybody!");
+		frame.setSize(410, 410);
+		JPanel panel = new JPanel();
+		JTextArea text = new JTextArea("Hi Jonah!");
+		Border Solid = BorderFactory.createLineBorder(Color.black);
+		text.setBorder(Solid);
+		panel.setLayout(null);
+		text.setBounds(100, 100, 200, 100);
+		JButton button = new JButton("Click Me! :D :D!!!");
+		button.setFocusPainted(false);
+		button.setBounds(100, 200, 180, 30);
+		panel.add(button);
+		panel.add(text);
+		frame.add(panel);
+		frame.setVisible(true);
+		
+		//Add action listener to button
+        button.addActionListener(new ActionListener() {
+ 
+            public void actionPerformed(ActionEvent e)
+            {
+                JOptionPane.showMessageDialog(null, text.getText());
+            }
+
+        });
+		
+	}
+}
+  ---> Sample program that shows what we went over.
