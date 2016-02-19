@@ -1,0 +1,81 @@
+Notes on Event Handlers and Lambda Functions.
+
+In Java, anonymous inner classes provide a way to implement classes that may only occur once in an application. For example, in
+a standard Swing or JavaFX application a number of event handlers are required for keyboard and mouse events. Rather than writing
+a separate event handling class for each event, something like this is written.
+
+*****************************************************************
+21         
+22     JButton testButton = new JButton("Test Button");
+23     testButton.addActionListener(new ActionListener(){
+24       public void actionPerformed(ActionEvent ae){
+25         System.out.println("Click Detected by Anon Class");
+26       }
+27     });
+28 
+*****************************************************************
+
+Otherwise, a separate class that implements ActionListener would be required for each event. By creating the class in place where it
+is needed, this makes the code a little easier to read. But the code is not exactly elegant. There is quite a bit of code required
+just to define one method.
+
+Functional Interfaces
+If you look at the code that defines the ActionListener interface, it would look something like this.
+
+*******************************************************************
+   1 package java.awt.event;
+   2 import java.util.EventListener;
+   3 
+   4 public interface ActionListener extends EventListener {
+   5     
+   6 public void actionPerformed(ActionEvent e);
+   7 
+   8 }
+*******************************************************************
+This example is an interface with only one method. Moving forward, an interface that follows this pattern is know as a "functional
+interface."
+
+Note: This type of interface, was previously known as a SAM type (Single Abstract Method).
+
+Using functional interfaces with anonymous inner classes turns out to be a pretty common pattern in Java. In addition to the
+EventListner classes, interfaces like Runnable and Comparator are used in a similar manner. Therefore, functional interfaces are
+leveraged for use with lambda expressions.
+
+Lambda expressions address the bulkiness of anonymous inner classes by converting 5 lines of code into a single statement.
+This solves the "veritcal problem" presented by inner classes with a more simple horizontal solution.
+Lambda Examples
+So with the basic syntax explained, we can review a few common use cases.
+
+Runnable Lambda
+How can you write a Runnable using lambdas? Like this:
+
+*************************************************************************
+ 6 public class RunnableTest {
+ 7   public static void main(String[] args) {
+ 8     
+ 9     System.out.println("=== RunnableTest ===");
+10     
+11     // Anonymous Runnable
+12     Runnable r1 = new Runnable(){
+13       
+14       @Override
+15       public void run(){
+16         System.out.println("Hello world one!");
+17       }
+18     };
+19     
+20     // Lambda Runnable
+21     Runnable r2 = () -> { System.out.println("Hello world two!"); };
+22     
+23     // Run em!
+24     r1.run();
+25     r2.run();
+26     
+27   }
+28 }
+*************************************************************************
+
+A lambda expression is composed of three parts.
+
+ Argument List	| Arrow | Token	Body
+(int x, int y)	|  ->	  |   x + y
