@@ -1,0 +1,9 @@
+Notes on Decent style coding
+
+- Learn about separating Accessors and Mutators:
+    There are methods that can be both in the case of pop and peek to return whether something has mutated or not.
+    
+Side Effects
+  -- Finsh notes: Later
+  
+  
