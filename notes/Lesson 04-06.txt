@@ -1,0 +1,70 @@
+UML And How It Works
+====================
+
+Way back in the late twentieth century —
+1997 to be exact — the Object Management Group (OMG) released the Unified Modeling Language (UML). One of the purposes of UML was
+to provide the development community with a stable and common design language that could be used to develop and build computer
+applications. UML brought forth a unified standard modeling notation that IT professionals had been wanting for years. Using UML,
+IT professionals could now read and disseminate system structure and design plans —
+just as construction workers have been doing for years with blueprints of buildings.
+
+It is now the twenty-first century — 2003 to be precise — and UML has gained traction in our profession. On 75 percent of the resumes
+I see, there is a bullet point claiming knowledge of UML. However, after speaking with a majority of these job candidates, it
+becomes clear that they do not truly know UML. Typically, they are either using it as a buzz word, or they have had a sliver of
+exposure to UML. This lack of understanding inspired me to write this quick introduction to UML, focused on the basic diagrams used
+in visual modeling. When you are finished reading you will not have enough knowledge to put UML on your resume, but you will have
+a starting point for digging more deeply into the language.
+
+Deploy with confidence
+----------------------
+Consistently deliver high-quality software faster using DevOps services on IBM Bluemix. Sign up for a free Bluemix cloud trial, and
+get started.
+A little background
+As I mentioned, UML was meant to be a unifying language enabling IT professionals to model computer applications. The primary authors
+were Jim Rumbaugh, Ivar Jacobson, and Grady Booch, who originally had their own competing methods (OMT, OOSE, and Booch). Eventually,
+they joined forces and brought about an open standard. (Sound familiar? A similar phenomenon spawned J2EE, SOAP, and Linux.) One
+reason UML has become a standard modeling language is that it is programming-language independent. (UML modeling tools from IBM
+Rational are used extensively in J2EE shops as well in .NET shops.) Also, the UML notation set is a language and not a methodology.
+This is important, because a language, as opposed to a methodology, can easily fit into any company's way of conducting business
+without requiring change.
+
+Learn more. Develop more. Connect more.
+One of the perks of developerWorks Premium is access to more than 500 books and conference videos from the Safari library.
+A few titles that might interest you include:
+
+Patterns of Enterprise Application Architecture
+===============================================
+
+Java Application Architecture
+-----------------------------
+
+UML Distilled: A Brief Guide to the Standard Object Modeling Language
+O'Reilly Software Architecture Conference 2015 Complete Video Compilation
+
+
+Check out all that developerWorks Premium has to offer and become a member today.
+Since UML is not a methodology, it does not require any formal work products (i.e., "artifacts" in IBM Rational Unified
+Process® lingo). Yet it does provide several types of diagrams that, when used within a given methodology, increase the ease of
+understanding an application under development. There is more to UML than these diagrams, but for my purposes here, the diagrams
+offer a good introduction to the language and the principles behind its use.
+By placing standard UML diagrams in your methodology's work products,
+you make it easier for UML-proficient people to join your project and quickly become productive.
+The most useful, standard UML diagrams are: use case diagram, class diagram, sequence diagram, statechart diagram,
+activity diagram, component diagram, and deployment diagram.
+
+It is beyond the scope of this introductory article to go into great detail about each type of diagram. Instead, I will provide you
+with enough information for a general understanding of each one and then supply more details in later articles.
+
+
+Use-case diagram
+----------------
+
+A use case illustrates a unit of functionality provided by the system. The main purpose of the use-case diagram is to help development
+teams visualize the functional requirements of a system, including the relationship of "actors" (human beings who will interact with
+the system) to essential processes, as well as the relationships among different use cases. Use-case diagrams generally show groups
+of use cases — either all use cases for the complete system, or a breakout of a particular group of use cases with related
+functionality (e.g., all security administration-related use cases). To show a use case on a use-case diagram, you draw an oval
+in the middle of the diagram and put the name of the use case in the center of, or below, the oval. To draw an actor (indicating
+a system user) on a use-case diagram, you draw a stick person to the left or right of your diagram (and just in case you're wondering,
+some people draw prettier stick people than others). Use simple lines to depict relationships between actors and use cases, as shown
+in Figure 1.
