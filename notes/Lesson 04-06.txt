@@ -68,3 +68,29 @@ in the middle of the diagram and put the name of the use case in the center of, 
 a system user) on a use-case diagram, you draw a stick person to the left or right of your diagram (and just in case you're wondering,
 some people draw prettier stick people than others). Use simple lines to depict relationships between actors and use cases, as shown
 in Figure 1.
+
+
+
+UML Class Diagrams
+==================
+
+ - Zoo Consists of animal cages
+ - Every Cage is the home of atleast 2 animals but less than 6
+ - Animals can be reptiles, insects, or mammals
+ - Mammals are alaphants, monkeys, and tigers.
+ 
+    [ZOO]--------------------[Cage]---------------------2..5[ANIMAL]
+                                                                ▲
+                                                                |
+                                          ______________________|______________________
+                                          |                     |                      |
+                                      [REPTILE]             [INSECTS]             [Mammals]
+                                                                                      ▲
+                                                                                      |
+                                                                          ____________|_____________
+                                                                         |            |             |
+                                                                     [ELEPHANT]    [MONKEY]       [TIGER]
+                                                                     
+                                                                     
+                                                                     
+
